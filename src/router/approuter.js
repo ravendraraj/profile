@@ -7,7 +7,7 @@ import constants from "../constants";
 
 function AppRouter(){
     return (
-        <BrowserRouter>
+         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<PublicLayout />}>
                     <Route path={"/"} element={<HomePage/>}/>
