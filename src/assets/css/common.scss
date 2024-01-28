@@ -1,0 +1,185 @@
+::selection {
+    color: #ffff;
+    background: #01FF55;
+}
+
+.animation_text{
+.text{
+
+    margin:0px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background:#000;
+}
+
+.role-title{
+    position: relative;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    //text-decoration-line: overline;
+    font-size: 30px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background:linear-gradient(90deg,#000,#fff,#000);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:rgba(255,255,255,.1);
+}
+.developer-name {
+    font-size: 46px;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.welcome-tag {
+    font-size: 95px;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.welcome-tag-inner{
+    color: #000;
+    background-color: #fff;
+}
+
+@keyframes example {
+  0%   {
+      background-position: -480%;
+  }
+
+  100% {
+      background-position: 480%;
+  }
+}
+
+#title{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background:linear-gradient(90deg,#000,#fff,#000);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    animation-name: title;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:rgba(255,255,255,.1);
+}
+@keyframes title {
+  from{
+      color:red !important;
+  }
+
+  to{
+      color:yellow !important;
+  }
+}
+}
+
+// title
+.title{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.my-skill-title{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 90px;
+    text-align: center;
+}
+.my-skill-subtitle{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-box{
+    .about-box-content{
+        .about-tag-line{
+        font-size: 40px;
+        color:"#000"
+        }
+
+        .info-box{
+           display: flex;
+           justify-content: space-between;
+        }
+        .info-box-element{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .info-box-element-label{
+            font-size: 16px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .info-box-element-value{
+            font-size: 16px;
+            color:#1c1b1bc4
+
+        }
+
+        .skill-box-element-value{
+            font-size: 16px;
+            font-weight: 700;
+            color:#1c1b1bc4;
+            margin-left: 10px;
+        }
+
+        
+    }
+    .about-key-points{
+        font-size: 22px;
+        font-weight: 700;
+        color:#ffffffb9;
+        letter-spacing: 4px;
+        line-height: 80px;
+    }
+    .about-key-points:hover{
+        color:#fff
+    }
+}
+
+.about-user-experience{
+    background-color:#000;
+    padding:80px;
+    margin:50px;
+    position: relative;
+}
+.about-user-experience::before {
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    background: #fff;
+    content: "";
+    right: -15px;
+    top: 80px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

@@ -1,0 +1,50 @@
+.customButton {
+  .MuiButtonBase-root {
+    border-radius: 10px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 14px 55px 14px 55px;
+    color: #fff;
+        box-shadow: none;
+    .addIcon {
+      display: flex;
+      svg {
+        margin-right: 7px;
+      }
+    }
+  }
+
+    .MuiButtonBase-root:hover{
+          opacity: 0.7;
+    }
+}
+
+.customButtonSeconday {
+  .MuiButtonBase-root {
+    border-radius: 10px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 14px 55px 14px 55px;
+    color: #000;
+        box-shadow: none;
+    .addIcon {
+      display: flex;
+      svg {
+        margin-right: 7px;
+      }
+    }
+  }
+
+    .MuiButtonBase-root:hover{
+          opacity: 0.7;
+          background-color: #fff;
+    }
+}
